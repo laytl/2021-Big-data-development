@@ -1,0 +1,95 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.6" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundleName": "te"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+				name: "splitPane1"
+				"orientation": 0
+				"resizeWeight": 0.65
+				add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+					name: "splitPane2"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTree" ) {
+							name: "tree1"
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "left"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+						name: "panel2"
+						add( new FormContainer( "javax.swing.JToolBar", new FormLayoutManager( class javax.swing.JToolBar ) ) {
+							name: "toolBar1"
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "button3"
+								"text": new FormMessage( null, "button3.text" )
+								"background": sfield java.awt.Color black
+								"foreground": &Color0 new java.awt.Color( 204, 255, 255, 255 )
+								addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button3MouseClicked", true ) )
+							} )
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "button4"
+								"text": new FormMessage( null, "button4.text" )
+								"background": sfield java.awt.Color black
+								"foreground": #Color0
+								addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button4MouseClicked", true ) )
+							} )
+							add( new FormComponent( "javax.swing.JTextField" ) {
+								name: "textField4"
+								"enabled": false
+								"editable": false
+							} )
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "North"
+						} )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPane4"
+							add( new FormComponent( "javax.swing.JTextArea" ) {
+								name: "textArea2"
+								"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 5, false )
+								"background": new java.awt.Color( 204, 204, 204, 255 )
+								"foreground": new java.awt.Color( 0, 0, 0, 255 )
+							} )
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "Center"
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "right"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "left"
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane2"
+					add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+						name: "tabbedPane1"
+						"minimumSize": new java.awt.Dimension( 206, 200 )
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPane3"
+							add( new FormComponent( "javax.swing.JTextArea" ) {
+								name: "textArea1"
+								"text": new FormMessage( null, "textArea1.text" )
+								"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+								"rows": 5
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"title": "Result list:"
+						} )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "right"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 655, 485 )
+		} )
+	}
+}

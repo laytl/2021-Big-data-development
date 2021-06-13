@@ -1,0 +1,359 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.6" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundleName": "te"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) {
+			"hgap": 2
+			"vgap": 2
+		} ) {
+			name: "this"
+			"shape": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+					"hgap": 2
+					"vgap": 2
+				} ) {
+					name: "contentPanel"
+					"minimumSize": &Dimension0 new java.awt.Dimension( 20, 24 )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": new FormMessage( null, "label1.text" )
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 10, false )
+						"horizontalAlignment": 0
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "North"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+					"$columnSpecs": "0:1.0, 0, 80, 0, 0, 0, 80, 0, 0, 0, 0"
+					"$rowSpecs": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"
+					"$hGap": 5
+					"$vGap": 5
+				} ) {
+					name: "buttonBar"
+					"border": new javax.swing.border.EmptyBorder( 12, 0, 0, 0 )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel11"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label13"
+							"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+							"horizontalAlignment": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 2
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+						name: "panel1"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label2"
+							"text": new FormMessage( null, "label2.text" )
+							"font": &SwingDerivedFont1 new com.jformdesigner.model.SwingDerivedFont( null, 0, 4, false )
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridy": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField1"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 4, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridwidth": 10
+						"gridy": 1
+						"gridx": 1
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel8"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label10"
+							"font": #SwingDerivedFont0
+							"horizontalAlignment": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 7
+						"gridy": 1
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel7"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label9"
+							"font": #SwingDerivedFont0
+							"horizontalAlignment": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 2
+						"gridy": 2
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel14"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label18"
+							"font": #SwingDerivedFont0
+							"horizontalAlignment": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 2
+						"gridy": 3
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": new FormMessage( null, "label3.text" )
+						"horizontalAlignment": 0
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 4, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridy": 4
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField2"
+						"font": &SwingDerivedFont2 new com.jformdesigner.model.SwingDerivedFont( null, 0, 4, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridy": 4
+						"gridwidth": 10
+						"gridx": 1
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel10"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label12"
+							"font": #SwingDerivedFont0
+							"horizontalAlignment": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 8
+						"gridy": 4
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel3"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label5"
+							"font": #SwingDerivedFont0
+							"horizontalAlignment": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 1
+						"gridy": 5
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel15"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label19"
+							"font": #SwingDerivedFont0
+							"horizontalAlignment": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 2
+						"gridy": 6
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label14"
+						"text": new FormMessage( null, "label14.text" )
+						"font": #SwingDerivedFont1
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridy": 7
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField4"
+						"font": #SwingDerivedFont2
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridy": 7
+						"gridwidth": 10
+						"gridx": 1
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel12"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label15"
+							"font": #SwingDerivedFont0
+							"horizontalAlignment": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 4
+						"gridy": 8
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel16"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label20"
+							"font": #SwingDerivedFont0
+							"horizontalAlignment": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 2
+						"gridy": 9
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label17"
+						"text": new FormMessage( null, "label17.text" )
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridy": 10
+						"gridwidth": 2
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField5"
+						"font": #SwingDerivedFont2
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridy": 10
+						"gridwidth": 10
+						"gridx": 1
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel13"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label16"
+							"font": #SwingDerivedFont0
+							"horizontalAlignment": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 4
+						"gridy": 11
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel17"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label21"
+							"font": #SwingDerivedFont0
+							"horizontalAlignment": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 2
+						"gridy": 12
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "okButton"
+						"text": new FormMessage( null, "okButton.text_2" )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "okButtonMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 2
+						"gridy": 13
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel5"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label7"
+							"font": #SwingDerivedFont0
+							"horizontalAlignment": 0
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 4
+						"gridy": 13
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "cancelButton"
+						"text": new FormMessage( null, "cancelButton.text_2" )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "cancelButtonMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+						"gridx": 6
+						"gridy": 13
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"hgap": 2
+						"vgap": 2
+					} ) {
+						name: "contentPanel9"
+						"minimumSize": #Dimension0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label11"
+							"font": #SwingDerivedFont0
+							"horizontalAlignment": 0
+						} )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "East"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+					"hgap": 2
+					"vgap": 2
+				} ) {
+					name: "contentPanel2"
+					"minimumSize": #Dimension0
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"font": #SwingDerivedFont0
+						"horizontalAlignment": 0
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "West"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+					"hgap": 2
+					"vgap": 2
+				} ) {
+					name: "contentPanel4"
+					"minimumSize": #Dimension0
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": new FormMessage( null, "label6.text" )
+						"font": #SwingDerivedFont0
+						"horizontalAlignment": 0
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 625, 480 )
+		} )
+	}
+}
